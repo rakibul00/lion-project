@@ -1,0 +1,396 @@
+
+
+/* <!-- FONT STYLE --> */
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300&family=Roboto+Mono:wght@300&family=Shantell+Sans:wght@300&display=swap');
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* ______________________________________________________________________________ */
+/* ______________________________________________________________________________ */
+/* vavbar style start */
+.section{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.navbar{
+    height: 90px;
+}
+nav img{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.btnnn{
+    border: none;
+    height: 40px;
+    width: 100px;
+    
+    padding: 2px 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 167, 81);
+    border-radius: 17px;
+    border: 2px solid rgb(11, 167, 81);
+}
+
+.btnnn:hover{
+    background-color: rgb(11, 167, 81);
+    color: rgb(253, 240, 240);
+    
+    transition: all .3s ease-in-out;
+
+}
+#hh:hover{
+    color: rgb(11, 167, 81);
+}
+@media(max-width:960px){
+    nav ul li a {
+        text-align: center;
+        
+    }
+    ul li .btnnn{
+        margin-left: 290px;
+    }
+  
+}
+
+
+@media(max-width:765px){
+    ul li .btnnn{
+        margin-left: 200px;
+    }
+}
+@media(max-width:761px){
+    ul li .btnnn{
+        margin-right: 150px;
+    }
+}
+
+@media(max-width:979px){
+    nav ul li a {
+        text-align: center;
+        
+    }
+    ul li .btnnn{
+        margin-left: 290px;
+    }
+  
+}
+
+@media(max-width:732px){
+    ul li .btnnn{
+        margin-left: 200px;
+    }
+}
+@media(max-width:500px){
+    ul li .btnnn{
+        margin-left: 175px;
+    }
+}
+
+/* navbar style end */
+
+/* ______________________________________________________________________________ */
+/* ______________________________________________________________________________ */
+
+
+/* section 1 style start */
+
+.section-1{
+    margin-top: 60px;
+    margin-bottom: 40px;
+  
+}
+
+.p-1{
+    color: rgb(11, 167, 81);
+    font-size: 19px;
+}
+.p-2{
+    color: rgb(11, 167, 81);
+    font-size: 19px;
+}
+.h1-1{
+    width: 400px;
+    height: 130px;
+    font-weight: 700;
+    
+}
+#home{
+    font-weight: 700;
+
+}
+#home:hover{
+    color:rgb(11, 167, 81);
+}
+.img-1{
+    width: 500px;
+    height: 400px;
+}
+
+@media(max-width:764px){
+    .section-1{
+        margin-top: 230px;
+    }
+}
+
+@media(max-width:764px){
+    .btnnn{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:764px){
+    .h1-1{
+        width: 400px;
+        height: 130px;
+        font-weight: 700;
+        font-size: 50px;
+    }
+}
+
+/* section-1 end */
+
+/* ______________________________________________________________________________ */
+/* ______________________________________________________________________________ */
+
+
+
+/* section-2 start */
+
+.section-2{
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+#icon{
+    font-size: 40px;
+    height: 50px;
+    width: 40px;
+    
+   
+}
+#icon:hover{
+    color: rgb(11, 167, 81);
+}
+.card-1:hover{
+    border: 2px dashed rgb(11, 167, 81);
+    transition: all  ease-in ;
+    
+}
+.card-1{
+    width: 400px;
+    height: 250px;
+}
+
+#about{
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+#about:hover{
+    color: rgb(11, 167, 81);
+}
+
+/* section-2 end */
+/* ______________________________________________________________________________ */
+/* ______________________________________________________________________________ */
+
+
+/* section-3 start */
+.section-3{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#services{
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+#services:hover{
+    color: rgb(11, 167, 81);
+}
+#roww-1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#card-2:hover{
+    background-color: rgb(11, 167, 81);
+    color: white;
+    text-align: center;
+    border: 2px dotted rgb(246, 246, 246);
+}
+
+/* section-3 end */
+
+/* ______________________________________________________________________________ */
+/* ______________________________________________________________________________ */
+
+/* section-4 start */
+
+.section-4{
+    margin-top: 90px;
+    margin-bottom: 100px;
+    
+}
+
+.testi img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    top: 100%;
+    right: 50%;
+    transform: translate(70%, -50%);
+   
+}
+.testi{
+    background-color: rgb(11, 167, 81);
+    width: 350px;
+    height: 390px;
+}
+.testi:hover{
+    background-color: rgb(9, 9, 9);
+    
+}
+.testi i{
+    font-size: 60px;
+    margin-left: 150px;
+    color: white;
+    margin-bottom: ;
+}
+.pra{
+    
+    color: white;
+    text-align: center;
+    padding: 4px 14px;
+    margin:  0 20px;
+    width: 300px;
+    height: 300px;
+}
+.h3-2{
+    color: rgb(11, 167, 81);
+    transform: translate(22%, -200%);
+}
+.p-3{
+    color: rgb(11, 167, 81);
+    transform: translate(24%, -150%);
+}
+
+
+.roo-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#Testimonials{
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+#Testimonials:hover{
+    color: rgb(11, 167, 81);
+}
+@media(max-width:760px){
+    .roo-1{
+        display: block;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .testi{
+        margin-top: 200px;
+        width: 100%;
+        transform: translate(-0%, -40%);
+        
+    }
+    .testi i{
+        margin-left: 250px;
+    }
+    .pra{
+        margin-left: 100px;
+    }
+    .h3-2{
+        color: rgb(11, 167, 81);
+        transform: translate(35%, -200%);
+    }
+    .p-3{
+        color: rgb(11, 167, 81);
+        transform: translate(36%, -150%);
+    }
+    .testi img{
+        transform: translate(130%, -50%);
+    }
+    
+}
+
+/* section-4 end */
+
+/* ______________________________________________________________________________ */
+/* ______________________________________________________________________________ */
+
+/* section-5 start */
+
+.section-5{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    
+
+}
+
+.last-5{
+    background-color: rgb(233, 232, 232);
+}
+.p-6{
+    padding: 15px 20px;
+}
+.h3-5{
+    color: rgb(11, 167, 81);
+    padding: 15px 20px;
+    font-weight: 700;
+}
+.p-6:hover{
+    color: rgb(11, 167, 81);
+}
+
+
+
+/* section-5 end */
+
+/* ______________________________________________________________________________ */
+/* ______________________________________________________________________________ */
+
+/* footer start */
+
+#footer{
+    display: flex;
+}
+.p-7{
+    width: 1020px;
+    font-weight: 600;
+}
+.fotter i{
+    font-size: 20px;
+}
+.fotter i:hover{
+    color: rgb(11, 167, 81);
+}
+
+@media(max-width:400px){
+    #footer{
+        display: block;
+        text-align: center;
+    }
+    .fotter{
+        margin-left: 250px;
+    }
+}
+@media(max-width:1080px){
+    .p-7{
+        width: 800px;
+        font-weight: 600;
+    }
+}
